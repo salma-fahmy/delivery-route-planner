@@ -243,9 +243,23 @@ in a trip or in the unassignable list.
 <summary><b>1️⃣ Explain your solution approach in your own words</b></summary>
 <br>
 
-See [🧩 How the algorithm works](#-how-the-algorithm-works) above for the full
-walkthrough of the three passes (quarantine → area-first priority-aware
-First Fit → cross-area consolidation) and the edge case table.
+I treat this as a capacity-constrained grouping problem with three
+priorities: never exceed the vehicle capacity, keep same-area deliveries
+together when reasonably possible, and handle higher-priority (more urgent)
+deliveries first. The solution runs in three passes:
+
+1. **Quarantine** overweight deliveries that cannot fit in a single vehicle,
+   so they're reported instead of dropped or forced in.
+2. **Plan within each area** using a priority-aware First Fit: deliveries
+   are grouped by area first, then packed in order of urgency (weight only
+   breaks ties).
+3. **Consolidate** partially filled trips across different areas when the
+   combined weight still fits, so the fleet isn't sent out half-empty.
+
+This keeps the solution simple, deterministic, and easy to trace, while
+balancing capacity, area grouping, and priority in that order of
+strictness. The full walkthrough and edge-case decisions are documented in
+[🧩 How the algorithm works](#-how-the-algorithm-works).
 
 </details>
 
