@@ -74,7 +74,7 @@ and handling the most urgent deliveries first.
 
 - [🚀 How to run](#-how-to-run)
 - [📁 Input format](#-input-format)
-- [🗂️ Project structure](#️-project-structure)
+- [📦 Project structure](#-project-structure)
 - [🧩 How the algorithm works](#-how-the-algorithm-works)
 - [❓ Reasoning questions](#-reasoning-questions)
 - [✨ Extension: capacity simulation](#-extension-capacity-simulation)
@@ -126,8 +126,8 @@ Trip   3 | Nasr City                    |  5.70/10 kg ( 57%)
 SUMMARY
 Deliveries planned      : 5
 Trips required          : 3
-Total weight             : 18.2 kg
-Average utilisation      : 60.7%
+Total weight            : 18.2 kg
+Average utilisation     : 60.7%
 ```
 
 </details>
@@ -159,7 +159,7 @@ Sample files: [`data/sample_deliveries.csv`](data/sample_deliveries.csv) ·
 
 ---
 
-## 🗂️ Project structure
+## 📦 Project structure
 
 | Path | Purpose |
 |---|---|
