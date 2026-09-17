@@ -1,0 +1,16 @@
+id,area,priority,weight
+1,Nasr City,2,4.5
+2,Maadi,1,2.0
+3,Nasr City,3,1.2
+4,Zamalek,1,7.0
+5,Maadi,2,3.5
+6,Nasr City,1,12.5
+7,Maadi,1,9.8
+8,Zamalek,1,4.0
+9,Heliopolis,2,6.0
+10,Heliopolis,2,6.0
+11,Nasr City,2,5.0
+12,Maadi,3,0
+13,Zamalek,abc,3.0
+14,,1,2.5
+1,Nasr City,1,1.0
