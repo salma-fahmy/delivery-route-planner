@@ -4,10 +4,6 @@
 
 **2026 Software Development Internship — Technical Assignment**
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Tests](https://img.shields.io/badge/Tests-11%20passing-2ea44f?style=for-the-badge&logo=pytest&logoColor=white)
-![Dependencies](https://img.shields.io/badge/Dependencies-None-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Ready-success?style=for-the-badge)
 
 A small program that groups delivery requests into vehicle trips —
 respecting a 10&nbsp;kg capacity, keeping same-area deliveries together,
